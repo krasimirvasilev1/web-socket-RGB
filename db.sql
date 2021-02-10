@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS rgbcolordb;
+USE rgbcolordb;
+CREATE TABLE IF NOT EXISTS color (
+	id INTEGER key,
+    red INTEGER NOT NULL,
+    green INTEGER NOT NULL,
+    blue INTEGER NOT NULL
+)  ENGINE=INNODB;

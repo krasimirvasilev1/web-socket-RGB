@@ -1,0 +1,5 @@
+1- create database and color table by runnig the db.sql script in mysql server
+2- config database in application.properties file ,
+    change user or password to feet your environnement ,actual config is (user : root, password : admin)
+3- run from IDE WebsocketRgbApplication.java
+4- open url on browser : localhost:8080
